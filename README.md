@@ -8,8 +8,8 @@
 - void initGpioMode(char GPIO,int GPIO_Pin,int GPIO_Speed,char GPIO_Mode[],char GPIO_PuPd[]);
  
  	 此函数执行操作为： 初始化PIN口
- 	 初始化PIN口函数需配合字符串匹配函数使用
- 	 输入格式
+ 	初始化PIN口函数需配合字符串匹配函数使用
+ 	输入格式
 		GPIO  A~I；
 		GPIO_Pin 0 ~ 17 注意：17 为全选
 		GPIO_Speed 25 50 100;
